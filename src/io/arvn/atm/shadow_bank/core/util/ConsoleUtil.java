@@ -1,4 +1,4 @@
-package util;
+package io.arvn.atm.shadow_bank.core.util;
 
 public final class ConsoleUtil {
 

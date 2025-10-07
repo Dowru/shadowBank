@@ -1,6 +1,6 @@
-package service;
+package io.arvn.atm.shadow_bank.service.transacciones;
 
-import model.cuenta.CuentaDTO;
+import io.arvn.atm.shadow_bank.model.cuenta.CuentaDTO;
 
 public interface TransaccionService {
 

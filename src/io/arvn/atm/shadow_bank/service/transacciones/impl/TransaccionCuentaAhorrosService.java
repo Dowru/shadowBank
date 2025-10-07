@@ -1,11 +1,11 @@
-package service.impl;
+package io.arvn.atm.shadow_bank.service.transacciones.impl;
 
-import model.cuenta.CuentaDTO;
-import service.TransaccionServiceImpl;
+import io.arvn.atm.shadow_bank.model.cuenta.CuentaDTO;
+import io.arvn.atm.shadow_bank.service.transacciones.AbstractTransaccionService;
 
-import static util.ConsoleUtil.writeMessage;
+import static io.arvn.atm.shadow_bank.core.util.ConsoleUtil.writeMessage;
 
-public class TransaccionCuentaAhorrosService extends TransaccionServiceImpl {
+public class TransaccionCuentaAhorrosService extends AbstractTransaccionService {
 
     @Override
     public void retirar(double monto) {
